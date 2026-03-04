@@ -20,7 +20,7 @@ Identified 712 high-value at-risk customers representing £169,600 in annual rev
 ## Methodology
 1. Data Cleaning (Excel)
    - Removed 266,899 noise entries including 16,336 cancellation invoices
-   - Eliminated operational noise (POSTAGE, MANUAL adjustments)
+   - Eliminated operational noise (POSTAGE, MANUAL adjustments, Gifts)
    - Added calculated columns: Revenue, Month, Hour, DayOfWeek, CustomerType
 
 2. SQL Analysis (PostgreSQL)
